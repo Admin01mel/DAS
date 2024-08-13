@@ -1,0 +1,230 @@
+QWidget {
+  background-color: #1c222c;
+}
+QLabel {
+  color: #464d55;
+  font-weight: 600;
+}
+QLabel#heading {
+  color: #0f1925;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+QLabel#subheading {
+  color: #0f1925;
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+QLabel#text_channel{
+  color:white;
+background-color : rgba(0, 0, 0, 0);
+}
+
+QLabel{
+  color:white;
+  background-color : rgba(0, 0, 0, 0);
+}
+
+QLineEdit {
+  border-radius: 8px;
+  border: 1px solid #e0e4e7;
+  padding: 5px 15px;
+  font-weight:bold;
+}
+QCheckBox{
+  font-weight:bold;
+}
+QComboBox{
+  background-color:#ffffff;
+  border-radius: 8px;
+
+  padding: 5px 15px;
+}
+QComboBox:items{
+  background-color:#ffffff;
+  border-radius: 8px;
+}
+QComboBox:items{
+    color:#ffffff;
+    background-color:#ffffff;
+}
+
+QListView{
+    color:#ffffff;
+    background-color:#ffffff;
+}    
+QLineEdit:focus {
+  border: 1px solid #d0e3ff;
+}
+
+QLineEdit::placeholder {
+  color: #767e89;
+}
+
+@keyframes blinking {
+    0% {
+        background-color: #06c3d1;
+        border: 3px solid #666;
+    }
+    100% {
+        background-color: #270da6;
+        border: 3px solid #666;
+    }
+}
+
+QPushButton#channel {
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 2px;
+  outline: 0px;
+}
+
+QPushButton#channel:hover,
+QPushButton#channel:focus {
+  background-color: gray;
+}
+QPushButton#home,QPushButton#mute,QPushButton#ack,QPushButton#reset,QPushButton#log,QPushButton#config {
+  background-color:#1c222c;
+
+}
+QPushButton#home:clicked{
+  background-color:gray;
+}
+QLabel#label_device{
+  background-color:#0c5c88;
+  color:white;
+  border-radius :5px
+}
+
+QLabel#label_8{
+  background-color:#0c5c88;
+  color:white;
+  border-radius :5px
+}
+QLineEdit{
+  background-color:white;
+  color:black;
+} 
+
+QListView{
+  background-color:black;
+  border:2px solid black
+}
+QListView#listViewChannel{
+  background-color:#1c222c;
+  border:0px solid #1c222c
+
+}
+QCheckBox{
+  color:white;
+ background-color: black;
+}
+QCheckBox#checkBoxInvert,QCheckBox#checkBoxHigh,QCheckBox#checkBoxLow{
+  color:white;
+ background-color: #1c222c;
+}
+
+QPushButton#pb_save_device,QPushButton#pb_save_wifi,QPushButton#pb_save_display,QPushButton#pb_save_delay ,QPushButton#pb_save_account,QPushButton#pushButtonSave{
+  background-color:green;
+  color: white;
+}
+QPushButton#pushButtonCancel{
+  background-color:red;
+  color: white;
+  font-weight:bold;
+}
+QPushButton#pushButtonSave{
+  color: white;
+  font-weight:bold;
+}
+QPushButton#pb_delete{
+   background-color:red;
+  color: white;
+}
+QPushButton#pb_restart{
+   background-color:blue;
+  color: white;
+}
+QPushButton#pb_device,QPushButton#pb_lan,QPushButton#pb_wifi,QPushButton#pb_system,QPushButton#pb_telegram,QPushButton#pb_account,QPushButton#pb_display    {
+  background-color:#1c222c;
+  border:1px solid #1c222c;
+  color:blue
+}
+
+QPushButton#pb_device_active,QPushButton#pb_lan_active,QPushButton#pb_wifi_active,QPushButton#pb_display_active ,QPushButton#pb_system_active ,QPushButton#pb_account_active  {
+  background-color:blue;
+  color: white;
+}
+QMessageBox{
+  background-color:#1c222c;
+  font-width:200px;
+}
+
+QTableWidget{
+  color:white;
+  border: 2px solid  #1c222c;
+}
+
+
+QMessageBox QPushButton {
+  background-color:blue;
+  color:white;
+  border-radius :5px;
+  border:1px solid green;
+  width:100px;
+  height:20px;
+}
+
+QTableWidget::QTableCornerButton::section { background-color:#232326; }
+QHeaderView::section { background-color:#000000;color:#ffffff }
+
+QFrame#lcd{
+  background-color: #ff7d2e;
+}
+QLabel#label{
+  color: #1c222c;
+}
+QLineEdit#lcd_pass{
+   background-color: #ff7d2e;
+   color:#1c222c;
+   border :2px solid #ff7d2e
+}
+
+
+QPushButton#pb1,
+QPushButton#pb2,
+QPushButton#pb3,
+QPushButton#pb4,
+QPushButton#pb5,
+QPushButton#pb6,
+QPushButton#pb7,
+QPushButton#pb8,
+QPushButton#pb9,
+QPushButton#pb0,
+QPushButton#pbdel,
+QPushButton#pbclear,
+QPushButton#pbcancel,
+QPushButton#pbenter
+{
+  width:95%;
+  background: conic-gradient(
+    #d7d7d7,
+    #c3c3c3,
+    #cccccc,
+    #c6c6c6,
+    #d7d7d7,
+    #c3c3c3,
+    #cccccc,
+    #c6c6c6,
+    #d7d7d7,
+    #c3c3c3,
+    #cccccc,
+    #c6c6c6,
+    #d7d7d7,
+    #c3c3c3,
+    #cccccc,
+    #c6c6c6)
+}
